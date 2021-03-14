@@ -1,0 +1,76 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('./assests/black-thread-light.png');
+}
+header {
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(252, 248, 52);
+  display: flex;
+  align-items: center;
+}
+header h1 {
+  margin-left: 1%;
+}
+.inputField {
+  height: 450px;
+  width: 270px;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+  overflow-x: auto;
+  background-color: rgba(201, 124, 201,0.2);
+}
+.inputField input{
+  padding: 5px;
+  margin-bottom: 4px;
+  width: 100%;
+  display: block;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 2px solid #000;
+  font-size: 21px;
+}
+
+.inputField input:focus {
+  outline: 0;
+}
+
+.inputField button {
+  padding: 5px 8px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgb(252, 248, 52);
+
+}
+.center {
+  text-align: center;
+}
+.inputField button :focus {
+  outline: none;
+}
+.inputField ul {
+  margin: 30px 20px;
+}
+.item {
+  cursor: pointer;
+  font-size: 20px;
+  color: #666
+}
+footer {
+  height: 8vh;
+  width: 100%;
+  background-color: rgb(252, 248, 52);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+}
